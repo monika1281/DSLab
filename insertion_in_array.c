@@ -2,6 +2,7 @@
 int main()
 { 
 int n, pos, new_element;
+ 
 printf("enter array size: ");
 scanf("%d",&n);
 int a[100];
