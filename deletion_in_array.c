@@ -7,6 +7,7 @@ scanf("%d",&n);
 int a[100];
 int i;
 printf("enter array elements:");
+ 
 for(i=0;i<n;i++)
 {
  scanf("%d",&a[i]);
