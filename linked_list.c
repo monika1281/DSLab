@@ -42,6 +42,51 @@ void display(){
               current = current->next;
               }
               }
+void insertatbegin(){
+                 struct node *newnode = (struct node *)malloc(sizeof(struct node));
+                 printf("enter a new node value:");
+                 scanf("%d",&newnode->data);
+                 newnode->next = head;
+                 head = newnode;
+                 printf("Elements of Linked list are:\n");
+                 while(newnode !=NULL)
+                 {
+                 printf("%5d\t", newnode->data);
+                 printf("%5ld\t",(long)newnode->next);
+                 printf("\n");
+                 newnode = newnode->next;
+                 }
+                 
+                 }
+void insertatpos(int pos){
+                struct node *newnode = (struct node *)malloc(sizeof(struct node));
+                struct node *current = head;
+                struct node *temp = head;
+                //int pos;
+                //printf("enter pos:");
+                //scanf("%d",&pos);
+                printf("enter a new node value:");
+                scanf("%d",&newnode->data);
+                int i;
+               
+                for (i= 1; i< pos-1; i++)
+                { 
+                   current = current -> next ;
+                }
+                newnode -> next = current -> next;
+                current -> next = newnode;
+                while(temp !=NULL)
+                 {
+                 printf("%5d\t", temp->data);
+                 printf("%5ld\t",(long)temp->next);
+                 printf("%5ld\t",(long)temp);
+                 printf("\n");
+                 temp = temp->next;
+                 }
+                 }
+                
+                
+                     
               
                          
 int main(){
@@ -53,6 +98,15 @@ int main(){
           create(30);
           create(40);  
           display();
+          int pos;
+          printf("enter pos:");
+          scanf("%d",&pos);
+          if (pos == 0){
+          insertatbegin();
+          }
+          else if (pos != 0){
+          insertatpos(pos);
+          }
           return 0;
           
           }
