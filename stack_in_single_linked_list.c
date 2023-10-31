@@ -64,8 +64,9 @@ void display(){
 	  printf("%5d\t", current->data);
 	  printf("%5ld\t",(long)current->next);
 	  printf("%5ld\t",(long)current);
+	  printf("\n");
 	  current = current ->next;
 	}
-	printf("\n");
+	
 	
 }
