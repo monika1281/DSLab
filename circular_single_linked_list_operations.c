@@ -32,8 +32,9 @@ void linear_search(int key){
 	                    do{
 	                    length++;
 						current = current -> next ;
-	                        }while (current->next != head);
-	                   length++;
+	                        }while (current != head);
+	                   
+	                   printf("length:%d",length);
 					current = head;
 					int i ;
 					for (i = 1; i<=length; i++){
@@ -60,8 +61,8 @@ void display(){
               printf("Elements of Linked list are:\n");
               do{
               printf("%5d\t", current->data);
-//              printf("%5ld\t",(long)current->next);
-//              printf("%5ld\t",(long)current);
+              printf("%5ld\t",(long)current->next);
+              printf("%5ld\t",(long)current);
               printf("\n");
               current = current->next;
              }while(current!=head);
@@ -161,4 +162,3 @@ int main(){
           
           }
           
-
