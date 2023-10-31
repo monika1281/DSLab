@@ -78,6 +78,7 @@ void insert(int pos){
 	                if (pos == 1){
 	                	newnode->next = head;
                         head = newnode;
+                        tail -> next = head;
 					}
 					else {
 						int i;               
