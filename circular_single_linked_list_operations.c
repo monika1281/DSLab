@@ -34,7 +34,7 @@ void linear_search(int key){
 						current = current -> next ;
 	                        }while (current != head);
 	                   
-	                   printf("length:%d",length);
+	                   printf("length:%d\n",length);
 					current = head;
 					int i ;
 					for (i = 1; i<=length; i++){
