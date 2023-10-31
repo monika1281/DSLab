@@ -137,8 +137,9 @@ int main(){
             int ch=0;
             int item;
             int pos;
-            while (ch != 6){	
             printf("1.Create 2.Insert 3.Delete 4.Display 5.Searching 6.Exit\n");
+            while (ch != 6){	
+            
             printf("enter choice:");
             scanf("%d",&ch);            
             switch(ch){
