@@ -7,7 +7,7 @@ int main(){
 	int ch=0;
     int item;
     int pos;
-    while (ch != 6){	
+    while (ch != 4){	
     printf("1.Push 2.Pop 3.Display 4.Exit\n");
     printf("enter choice:");
     scanf("%d",&ch);            
