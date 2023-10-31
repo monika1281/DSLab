@@ -15,8 +15,10 @@ struct node *head, *tail = NULL;
                                newnode -> next = NULL;
                                if (head == NULL)
                                {
-                               head = newnode;
+                               head = newnode;   
                                tail = newnode;
+                             head -> prev = tail;
+                             head -> next = tail;
                                }
                                else
                                {
