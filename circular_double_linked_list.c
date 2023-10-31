@@ -57,6 +57,8 @@ void insert(int pos){
 	                	head -> prev = newnode;
                         head = newnode;
                         head -> prev = tail;
+                        tail -> next = head; 
+                        
 					}
 					else{
 						struct node *current = head;
@@ -165,4 +167,4 @@ int main(){
 
           return 0;
           
-          }
+}
