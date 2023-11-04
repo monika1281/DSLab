@@ -85,7 +85,7 @@ int main(){
     scanf("%d",&ch);            
     switch(ch){
     	case 1: printf("enter:");
-		        scanf("%d",&item);
+                scanf("%d",&item);
     	        stack1(item);
     	        break;
         case 2: display1();
