@@ -102,3 +102,29 @@ int main(){
 		}
 	
 }
+---------------------------------------------------------------------
+output:
+1.stack1push 2.display1 3.stack1pop 4.display2 5.stack2pop 6.Exit
+enter choice:1
+enter:1
+enter choice:1
+enter:2
+enter choice:1
+enter:3
+enter choice:2
+3    2    1
+enter choice:3
+enter choice:3
+enter choice:3
+enter choice:4
+1    2    3
+enter choice:5
+1 is deleted
+enter choice:5
+2 is deleted
+enter choice:5
+3 is deleted
+enter choice:4
+stack underflow
+enter choice:6
+
