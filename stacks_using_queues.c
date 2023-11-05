@@ -78,7 +78,7 @@ int main(){
 	int ch=0;
     int item;
     while (1){	
-    printf("1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit\n");
+    printf("1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit\n");
     printf("enter choice:");
     scanf("%d",&ch);            
     switch(ch){
@@ -104,65 +104,65 @@ int main(){
 -----------------------------------------------------------------
 output:
 /tmp/2RPVjZEGYv.o
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:1
 enter:1
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:1
 enter:2
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:1
 enter:3
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:2
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:2
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:2
 element poped:3
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:3
 Queue is empty
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:5
 1  2
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:4
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:4
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:4
 Queue is empty
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:3
 1  2
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:2
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:2
 element poped:2
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:2
 Queue is empty
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:5
 1
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:4
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:5
 Queue is empty
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:3
 1
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:2
 element poped:1
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:3
 Queue is empty
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:5
 Queue is empty
-1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5display2 6.Exit
+1.Enqueue 2.Dequeue 3.Display 4.dequeue2 5.display2 6.Exit
 enter choice:6
