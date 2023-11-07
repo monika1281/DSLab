@@ -93,3 +93,27 @@ int main(){
           return 0;
           
           }
+-------------------------------------------------------------------
+output:
+1.Create 2.Display 3.Reverse 4.Exit
+enter choice:1
+enter:1
+1.Create 2.Display 3.Reverse 4.Exit
+enter choice:1
+enter:2
+1.Create 2.Display 3.Reverse 4.Exit
+enter choice:1
+enter:3
+1.Create 2.Display 3.Reverse 4.Exit
+enter choice:2
+Elements of Linked list are:
+    1	5864160	5864128	
+    2	5864192	5864160	
+    3	    0	5864192	
+1.Create 2.Display 3.Reverse 4.Exit
+enter choice:3
+length:3
+Reversed linked list:    3    2    1
+1.Create 2.Display 3.Reverse 4.Exit
+enter choice:4
+
