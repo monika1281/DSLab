@@ -7,7 +7,9 @@ int a[size];
     int h = data % size;
     int h1;
     int h2 = 0;
+    
     if(a[h] ==0){
+        
         a[h] = data;
     }
     else{
@@ -20,6 +22,7 @@ int a[size];
                 break;
             }
         }
+        
     }
     
 }
@@ -37,8 +40,9 @@ int main() {
     
     int data;
     int ch;
+    int count=0;
     for (int i = 0; i<size;i++){
-        a[i]=0;
+        a[i]=NULL;
     }
     printf("1.Insert 2.Display 3.Exit\n");
     while(1){
@@ -47,7 +51,13 @@ int main() {
         switch(ch){
          case 1:printf("enter data:");
                  scanf("%d",&data);
-                 insert(data);
+                 count = count + 1;
+                 if (count>size){
+                    printf("size exceeded\n");
+                 }
+                 else{
+                     insert(data);
+                 }
                  break;
          case 2:display();
                 break;
@@ -57,30 +67,4 @@ int main() {
     }
     return 0;
 }
-
-output:
-/tmp/ffvyva9nAX.o
-1.Insert 2.Display 3.Exit
-enter choice:1
-enter data:10
-enter choice:1
-enter data:23
-enter choice:1
-enter data:17
-enter choice:1
-enter data:31
-enter choice:1
-enter data:38
-enter choice:1
-enter data:45
-enter choice:2
-Array elements are:
-    0   45
-    1    0
-    2   23
-    3   10
-    4   17
-    5   31
-    6   38
-enter choice:3
 
