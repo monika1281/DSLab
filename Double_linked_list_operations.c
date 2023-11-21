@@ -84,17 +84,17 @@ void delete(int pos)
 	                	temp -> next = NULL;
 	                	head -> prev = NULL;
 					}
+					else if (pos == length) {
+    current = head;
+    while (current->next != tail) {
+        current = current->next;
+    }
+    current->next->prev = NULL;
+    current->next = NULL;
+    tail = current;
+}
+
 					
-					else if (pos == length){
-					                        current = head;
-                                            while (temp->next != tail) {
-                                             current = temp;
-                                             temp = temp->next;
-                                             }
-                                            current -> next -> prev = NULL;
-                                            current->next = NULL;
-                                            tail = current;  	
-					                       }
 					else{
 						temp = head;
 						for(i= 1; i< pos-1; i++)
@@ -164,4 +164,4 @@ int main(){
 
           return 0;
           
-          }
+}
