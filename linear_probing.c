@@ -67,4 +67,57 @@ int main() {
     }
     return 0;
 }
+output:
+
+1.Insert 2.Display 3.Exit
+
+enter choice:1
+
+enter data:50
+
+enter choice:1
+
+enter data:700
+
+enter choice:1
+
+enter data:76
+
+enter choice:1
+
+enter data:85
+
+enter choice:1
+
+enter data:92
+
+enter choice:1
+
+enter data:73
+
+enter choice:1
+
+enter data:101
+
+enter choice:2
+
+Array elements are:
+
+    0  700
+
+    1   50
+
+    2   85
+
+    3   92
+
+    4   73
+
+    5  101
+
+    6   76
+
+enter choice:3
+
+ 
 
