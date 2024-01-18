@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+
 int partition (int a[],int lb,int ub){
     int pivot = a[lb];
     int start = lb;
